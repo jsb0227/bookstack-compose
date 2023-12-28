@@ -30,7 +30,7 @@ services:
       - TZ=Europe/London
       - MYSQL_DATABASE=bookstackapp
       - MYSQL_USER=bookstack
-      - MYSQL_PASSWORD=bookstackapp
+      - MYSQL_PASSWORD=bookstackpass
     volumes:
       - /nfs/bookstack/db_data:/config
     restart: unless-stopped
